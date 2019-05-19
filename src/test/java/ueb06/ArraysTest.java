@@ -10,8 +10,8 @@ class ArraysTest {
 		Integer[] a1 = {1, 2, 3};
 		Integer[] a2 = new Integer [0];
 
-		assertEquals("[1, 2, 3]", Arrays.toString(a1));
-		assertEquals("[]", Arrays.toString(a2));
+		assertEquals("1, 2, 3", Arrays.toString(a1));
+		assertEquals("[ ]", Arrays.toString(a2));
 	}
 
 	@Test
